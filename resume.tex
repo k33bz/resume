@@ -1,0 +1,121 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+% Written by Christian Gati - 10-01-2013
+% Updated October 2014
+
+\documentclass[margin]{res}
+% === Packages ===
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\topmargin=-0.5in % start text higher on the page
+\setlength{\textheight}{10in} % increase text height to fit resume on 1 page
+
+\begin{document}
+\name{CHRISTIAN GATI}
+\address{ 	\centerline{14300 Avalon Reserve Blvd. Apt. 101}	\\
+			\centerline{Orlando, FL 32828}					\\
+			\centerline{(954) 247 - 4714}						\\
+			\centerline{\href{mailto:christian@cgati.com}{christian@cgati.com}}}
+
+\begin{resume}
+\section{OBJECTIVE}
+			To obtain a position for relevant experience in the field of Computer Science.
+
+\section{EDUCATION}
+			University of Central Florida, Orlando, FL	\\
+			Bachelor of Science in Computer Science, expected December 2014
+
+\section{EMPLOYMENT}
+            \begin{tabular}{p{3in} r}
+                University of Central Florida, Orlando, FL & August 2014 - Present
+            \end{tabular}
+            \begin{itemize}[noitemsep,nolistsep,leftmargin=0.16cm]
+                \item[] Programmer Analyst
+                \item[] Maintained and improved UCF College of Medicine web applications
+                    using {\bf C\#} and {\bf Razor}.
+            \end{itemize}
+			\begin{tabular}{p{3in} r}
+				University of Central Florida, Orlando, FL & May 2014 - August 2014
+			\end{tabular}
+			\begin{itemize}[noitemsep,nolistsep,leftmargin=0.16cm]
+				\item[] Computer Specialist
+				\item[] Provided support to end users for laptop and desktop machines
+						in a Windows and OS X environment. Repaired hardware and software
+						issues.
+			\end{itemize}
+
+			\begin{tabular}{p{3in} r}
+				Starwood Vacation Ownership, Orlando, FL & November 2012 - November 2013
+			\end{tabular}
+			\begin{itemize}[noitemsep,nolistsep,leftmargin=0.16cm]
+				\item[] Application Development Internship
+				\item[] Created applications for legacy business systems using the
+						{\bf BBx} language as well as created business applications
+						on the {\bf Salesforce} platform using {\bf Apex} code.
+			\end{itemize}
+
+\section{SKILLS}
+			{\bf Programming Languages} - C, Java, C\#, BBx, Apex				\\
+			{\bf Web Languages} - HTML5, CSS3, PHP, JavaScript, VisualForce	\\
+			{\bf Operating Systems} - Linux, OS X, Windows
+
+\section{EXPERIENCE}
+            \begin{tabular}{p{3in} r}
+                {\bf SpeakScript}
+            \end{tabular}
+            \begin{itemize}
+                \item[] Helped design and test a custom programming language
+                intended for spoken input into {\bf Google Glass} during a 24 hour
+                hackathon. This language is compiled to {\bf JavaScript} and run natively on the device.\\
+                https://github.com/UCF-HackFSU/SpeakScript}
+            \end{itemize}
+			\begin{tabular}{p{3in} r}
+				{\bf NID Reset Application for Android}
+			\end{tabular}
+			\begin{itemize}
+				\item[] Worked on the front end and of an {\bf Android} Application
+						using {\bf Java} which simplified the process of students
+						resetting their UCF Network ID Password.
+			\end{itemize}
+			\begin{tabular}{p{3in} r}
+				{\bf Account Inforclosure Processing Tool}
+			\end{tabular}
+			\begin{itemize}
+				\item[] Patched several business applications using the {\bf BBx}
+						language to prevent users from processing accounts using
+						tools meant for other accounts.
+			\end{itemize}
+			\begin{tabular}{p{3in} r}
+				{\bf Business Workflow Wizards}
+			\end{tabular}
+			\begin{itemize}
+				\item[] Created several wizards to streamline multiple department's
+						workflows using the {\bf Apex} language for backend development
+						and {\bf VisualForce} pages for the user-facing pages.
+			\end{itemize}
+			\begin{tabular}{p{3in} r}
+				{\bf PhysicsWorld}
+			\end{tabular}
+			\begin{itemize}
+				\item[] Participated in a 2-person 24-hour mini hackathon with the goal
+						of creating a physics sandbox environment using {\bf HTML5},
+						{\bf JavaScript}, and {\bf CSS3}. Made use of external
+						libraries such as {\bf Paper.js}, {\bf JQuery}, and the
+						\$1 Gesture Recognizer.
+			\end{itemize}
+			\begin{tabular}{p{3in} r}
+				{\bf PL/0 Compiler}
+			\end{tabular}
+			\begin{itemize}
+				\item[] Created a virtual machine, scanner, parser, and compiler for
+						a tiny version of the Pascal programming language written in {\bf C}.
+			\end{itemize}
+%\section{ACTIVITIES}
+%			Mobile Makers Club at UCF	\\
+%			EXCEL Program Scholar
+
+\end{resume}
+\end{document}
